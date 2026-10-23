@@ -170,16 +170,24 @@
         <li>Training preferences and goals</li>
       </ul>
       <p class="muted">
-        These data are not medical data, but they may relate to physical performance and lifestyle.
+        Some of these data, such as heart rate, may be considered data concerning health. We use them only to analyse your training and adapt your plan, never for medical purposes.
       </p>
 
       <h3 style="margin-top:14px;">3.3 Data from third-party integrations</h3>
       <p>If you connect external services, we may access data provided by:</p>
       <ul>
-        <li>Strava</li>
+        <li>Garmin Connect</li>
+        <li>Hammerhead (Karoo bike computers)</li>
+        <li>Wahoo (ELEMNT bike computers)</li>
         <li>Intervals.icu</li>
-        <li>Other compatible training platforms</li>
+        <li>Strava</li>
       </ul>
+      <p>
+        From these services we receive the activities you record: the data of each activity (power, heart rate, cadence, speed, GPS location and altitude), its summary and, where the service provides them, the original activity file and the model of the device you recorded it with.
+      </p>
+      <p>
+        For <strong>Garmin Connect</strong>, we receive the activities you record from the moment you connect your account, not earlier ones. Before we process data received from Garmin with artificial intelligence, we ask for your explicit consent (see section 6.2).
+      </p>
       <p class="muted">
         Only data explicitly authorized by you through those services will be processed.
       </p>
@@ -202,12 +210,24 @@
       </ul>
       <p class="muted">We never send Meta your name, email, location, or any training or health data. If you do not agree, the app works exactly the same.</p>
 
+      <h3 id="to-garmin" style="margin-top:14px;">3.6 Data we send to Garmin</h3>
+      <p>
+        If you connect your Garmin account and authorise it, we send the cycling workouts in your plan (their structure, durations and power or heart-rate targets) and the routes you schedule to your Garmin Connect account, so you can follow them on your Garmin device.
+      </p>
+      <ul>
+        <li>Before the first transfer, we explain which data will be transferred and why, and we ask for your express consent.</li>
+        <li>Once the data are in Garmin, Garmin processes them as a controller under its <a href="https://www.garmin.com/privacy/connect">Privacy Policy for Garmin Connect and Compatible Garmin Devices</a>.</li>
+        <li>Do not send these data to your Garmin Connect account if you are restricted from doing so.</li>
+        <li>You can stop these transfers at any time by disconnecting your Garmin account in Synced accounts.</li>
+      </ul>
+
       <h2 id="how-we-use">4. How we use your data</h2>
       <p>Your data are processed for the following purposes:</p>
       <ul>
         <li>To provide personalized training and nutrition recommendations</li>
         <li>To adapt recommendations to your goals, fitness level, and availability</li>
         <li>To improve the quality and relevance of our services</li>
+        <li>To send your workouts and routes to your device, if you connect an account that supports it (for example, Garmin)</li>
         <li>To manage your user account</li>
         <li>To communicate with you regarding the service</li>
         <li>To ensure technical functionality and security</li>
@@ -223,6 +243,7 @@
         <li><strong>Your consent:</strong> for optional data and third-party integrations</li>
         <li><strong>Legitimate interests:</strong> improving and securing the service</li>
         <li><strong>Your consent:</strong> ad measurement with Meta (section 3.5)</li>
+        <li><strong>Your explicit consent:</strong> processing with artificial intelligence of the data we receive from Garmin, including data that may be considered data concerning health (section 6.2), and sending workouts and routes to Garmin (section 3.6)</li>
         <li><strong>Legitimate interests:</strong> knowing which campaign each new account comes from (acquisition data, section 3.4)</li>
       </ul>
       <p>You may withdraw your consent at any time where processing is based on consent.</p>
@@ -258,14 +279,30 @@
         You can object to this processing at any time by writing to <a href="mailto:support@trainara.com">support@trainara.com</a>.
       </p>
 
+      <h3 id="ai-transparency" style="margin-top:14px;">6.2 AI transparency statement</h3>
+      <p>
+        Trainara processes your training data with artificial intelligence, including the data we receive from Garmin and from the other accounts you connect.
+      </p>
+      <ul>
+        <li><strong>Purpose:</strong> to analyse each session, create and adapt your training and nutrition plan, and reply to you in the coach chat.</li>
+        <li><strong>Who:</strong> OpenAI, which processes the data in the United States as our service provider and only to provide that service to us.</li>
+        <li><strong>Which data:</strong> your activity metrics (power, heart rate, duration, distance, elevation…), your athletic profile (FTP, zones, goals and availability), what you write to the coach, and the name or alias we address you by.</li>
+        <li><strong>Model training:</strong> we do not use your data to train artificial intelligence models, and OpenAI does not use the data it receives through its API to train its models.</li>
+        <li><strong>Support:</strong> the Anthropic tools described in section 6.1 only receive pseudonymised data.</li>
+      </ul>
+      <p>
+        <strong>Garmin data:</strong> we only process them with artificial intelligence if you give your explicit consent, which we ask for when you connect your Garmin account. You can withdraw it at any time in the app’s privacy settings or by disconnecting your Garmin account. Because session analysis and plan adaptation rely on this artificial intelligence, without that consent we cannot analyse the activities received from Garmin. Withdrawal does not affect the lawfulness of processing carried out before it.
+      </p>
+
       <h2 id="sharing">7. Data sharing and third parties</h2>
       <p>We do not sell your personal data.</p>
       <p>Your data may be shared only with trusted service providers strictly necessary to operate Trainara, including:</p>
       <ul>
-        <li>Cloud infrastructure and hosting providers</li>
-        <li>Artificial intelligence providers (e.g. OpenAI)</li>
-        <li>AI tools used for support and service improvement (Anthropic)</li>
-        <li>Integrated training platforms authorized by you</li>
+        <li>Cloud infrastructure and hosting providers (Scalingo, in France, and Amazon Web Services, in Spain)</li>
+        <li>Artificial intelligence providers (OpenAI, section 6.2)</li>
+        <li>AI tools used for support and service improvement (Anthropic, section 6.1)</li>
+        <li>The training platforms you connect (Garmin, Hammerhead, Wahoo, Intervals.icu, Strava), from which we receive your activities</li>
+        <li>Garmin (Garmin International, Inc. and Garmin Würzburg GmbH), if you connect your Garmin account and authorise sending workouts and routes (section 3.6)</li>
         <li>Meta Platforms Ireland Ltd., only if you agree to ad measurement (section 3.5). For the collection and transmission of those data, Trainara and Meta are joint controllers; from then on, Meta processes them as a controller under its own privacy policy</li>
       </ul>
       <p>All third parties are subject to appropriate data protection obligations.</p>
@@ -275,6 +312,7 @@
       <p>Where applicable, such transfers are safeguarded by appropriate legal mechanisms, such as standard contractual clauses.</p>
 
       <p>Data shared with Meta may be transferred to the United States under the EU-U.S. Data Privacy Framework.</p>
+      <p>Workouts and routes you send to Garmin may be processed outside the EEA under Garmin’s privacy policy.</p>
 
       <h2 id="retention">9. Data retention</h2>
       <p>
@@ -283,6 +321,9 @@
       </p>
 
       <p>Acquisition data and the record of your answer on ad measurement are kept for as long as your account exists.</p>
+      <p>
+        If you disconnect a training account, or revoke Trainara’s access from Garmin, we stop receiving new activities and sending workouts. Sessions already imported remain in your history, as they are part of your training, until you ask us to delete them or delete your account.
+      </p>
 
       <h2 id="rights">10. Your rights</h2>
       <p>Under the GDPR, you have the right to:</p>
@@ -295,7 +336,8 @@
         <li>Withdraw consent at any time</li>
         <li>Lodge a complaint with a data protection authority</li>
       </ul>
-      <p>To exercise your rights, contact us at <a href="mailto:support@trainara.com">support@trainara.com</a>.</p>
+      <p>To exercise your rights, contact us at <a href="mailto:support@trainara.com">support@trainara.com</a>. These rights include the data we receive from the accounts you connect, such as Garmin.</p>
+      <p>You can withdraw your consent for Garmin data at any time by disconnecting your account in Synced accounts or in the app’s privacy settings.</p>
 
       <h2 id="security">11. Data security</h2>
       <p>
