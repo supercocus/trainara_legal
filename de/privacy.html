@@ -224,6 +224,16 @@
         <li>Sie können diese Übermittlungen jederzeit beenden, indem Sie Ihr Garmin-Konto unter „Verknüpfte Konten“ trennen.</li>
       </ul>
 
+      <h3 id="crash-reports" style="margin-top:14px;">3.7 Absturzberichte der App</h3>
+      <p>Wenn die App einen Fehler hat oder sich unerwartet schließt, sendet sie automatisch einen Bericht an Firebase Crashlytics, einen Dienst von Google, damit wir den Fehler erkennen und beheben können. Der Bericht enthält:</p>
+      <ul>
+        <li>Den technischen Ablauf des Fehlers (an welcher Stelle im Code er aufgetreten ist)</li>
+        <li>Das Modell Ihres Geräts, die Version des Betriebssystems und die Version der App</li>
+        <li>Datum und Uhrzeit des Absturzes</li>
+        <li>Ihre numerische Nutzer-ID bei Trainara, damit wir den Absturz Ihrem Konto zuordnen können, wenn Sie uns um Hilfe bitten</li>
+      </ul>
+      <p class="muted">Der Bericht enthält weder Ihren Namen noch Ihre E-Mail-Adresse, Ihren Standort oder Ihre Trainings- oder Gesundheitsdaten. Google bewahrt Absturzberichte 90 Tage lang auf.</p>
+
       <h2 id="how-we-use">4. Wie wir Ihre Daten verwenden</h2>
       <p>Ihre Daten werden für folgende Zwecke verarbeitet:</p>
       <ul>
@@ -248,6 +258,7 @@
         <li><strong>Ihre Einwilligung:</strong> Anzeigenmessung mit Meta (Abschnitt 3.5)</li>
         <li><strong>Ihre ausdrückliche Einwilligung:</strong> Verarbeitung der von Garmin erhaltenen Daten mit künstlicher Intelligenz, einschließlich Daten, die als Gesundheitsdaten gelten können (Abschnitt 6.2), sowie Übermittlung von Einheiten und Routen an Garmin (Abschnitt 3.6)</li>
         <li><strong>Berechtigte Interessen:</strong> Wissen, aus welcher Kampagne jedes neue Konto stammt (Akquisitionsdaten, Abschnitt 3.4)</li>
+        <li><strong>Berechtigte Interessen:</strong> Erkennen und Beheben von Abstürzen der App (Absturzberichte, Abschnitt 3.7)</li>
       </ul>
       <p>Soweit die Verarbeitung auf Ihrer Einwilligung beruht, können Sie diese jederzeit widerrufen.</p>
 
@@ -302,6 +313,7 @@
       <p>Ihre Daten werden nur an vertrauenswürdige Dienstleister weitergegeben, die für den Betrieb von Trainara unbedingt erforderlich sind, darunter:</p>
       <ul>
         <li>Anbieter von Cloud-Infrastruktur und Hosting (Scalingo in Frankreich und Amazon Web Services in Spanien)</li>
+        <li>Google Ireland Ltd. (Firebase), um Ihnen Push-Benachrichtigungen zu senden und Absturzberichte der App zu erhalten (Abschnitt 3.7)</li>
         <li>Anbieter künstlicher Intelligenz (OpenAI, Abschnitt 6.2)</li>
         <li>KI-Werkzeuge für Support und Verbesserung des Dienstes (Anthropic, Abschnitt 6.1)</li>
         <li>Die Trainingsplattformen, die Sie verbinden (Garmin, Hammerhead, Wahoo, Intervals.icu, Strava), von denen wir Ihre Aktivitäten erhalten</li>
@@ -316,6 +328,7 @@
 
       <p>Mit Meta geteilte Daten können auf Grundlage des EU-US-Datenschutzrahmens (Data Privacy Framework) in die USA übermittelt werden.</p>
       <p>Einheiten und Routen, die Sie an Garmin senden, können gemäß der Datenschutzerklärung von Garmin außerhalb des EWR verarbeitet werden.</p>
+      <p>Mit Firebase verarbeitete Daten (Push-Benachrichtigungen und Absturzberichte) können auf Grundlage des EU-US-Datenschutzrahmens (Data Privacy Framework) in die USA übermittelt werden.</p>
 
       <h2 id="retention">9. Speicherdauer</h2>
       <p>

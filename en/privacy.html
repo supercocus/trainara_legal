@@ -224,6 +224,16 @@
         <li>You can stop these transfers at any time by disconnecting your Garmin account in Synced accounts.</li>
       </ul>
 
+      <h3 id="crash-reports" style="margin-top:14px;">3.7 App crash reports</h3>
+      <p>If the app fails or closes unexpectedly, it automatically sends a report to Firebase Crashlytics, a Google service, so we can detect and fix the problem. The report contains:</p>
+      <ul>
+        <li>The technical trace of the error (where in the code it happened)</li>
+        <li>Your device model, operating system version and app version</li>
+        <li>The date and time of the crash</li>
+        <li>Your numeric Trainara user ID, so we can link the crash to your account if you ask us for help</li>
+      </ul>
+      <p class="muted">The report does not contain your name, email, location, or training or health data. Google keeps crash reports for 90 days.</p>
+
       <h2 id="how-we-use">4. How we use your data</h2>
       <p>Your data are processed for the following purposes:</p>
       <ul>
@@ -248,6 +258,7 @@
         <li><strong>Your consent:</strong> ad measurement with Meta (section 3.5)</li>
         <li><strong>Your explicit consent:</strong> processing with artificial intelligence of the data we receive from Garmin, including data that may be considered data concerning health (section 6.2), and sending workouts and routes to Garmin (section 3.6)</li>
         <li><strong>Legitimate interests:</strong> knowing which campaign each new account comes from (acquisition data, section 3.4)</li>
+        <li><strong>Legitimate interests:</strong> detecting and fixing app crashes (crash reports, section 3.7)</li>
       </ul>
       <p>You may withdraw your consent at any time where processing is based on consent.</p>
 
@@ -302,6 +313,7 @@
       <p>Your data may be shared only with trusted service providers strictly necessary to operate Trainara, including:</p>
       <ul>
         <li>Cloud infrastructure and hosting providers (Scalingo, in France, and Amazon Web Services, in Spain)</li>
+        <li>Google Ireland Ltd. (Firebase), to send you push notifications and receive app crash reports (section 3.7)</li>
         <li>Artificial intelligence providers (OpenAI, section 6.2)</li>
         <li>AI tools used for support and service improvement (Anthropic, section 6.1)</li>
         <li>The training platforms you connect (Garmin, Hammerhead, Wahoo, Intervals.icu, Strava), from which we receive your activities</li>
@@ -316,6 +328,7 @@
 
       <p>Data shared with Meta may be transferred to the United States under the EU-U.S. Data Privacy Framework.</p>
       <p>Workouts and routes you send to Garmin may be processed outside the EEA under Garmin’s privacy policy.</p>
+      <p>Data processed with Firebase (push notifications and crash reports) may be transferred to the United States under the EU-U.S. Data Privacy Framework.</p>
 
       <h2 id="retention">9. Data retention</h2>
       <p>
